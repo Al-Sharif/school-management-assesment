@@ -1,0 +1,29 @@
+<title>School Management - Register</title>
+
+<body class="text-center">
+
+    <main class="form-signin">
+        <form (ngSubmit)="register()" #registerForm="ngForm">
+            <img src="/assets/svg/logo.svg" alt="">
+            <h1 class="h3 mb-3 fw-normal">Register as <strong>Student</strong></h1>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" name="firstName" placeholder="John" [(ngModel)]="student.firstName" required>
+                <label for="floatingInput">First Name</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" name="lastName" placeholder="Doe" [(ngModel)]="student.lastName" required>
+                <label for="floatingInput">Last Name</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" name="email" placeholder="name@example.com" [(ngModel)]="student.email" required>
+                <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="password" class="form-control" id="floatingPassword" name="password" placeholder="Password" [(ngModel)]="student.password" required>
+                <label for="floatingPassword">Password</label>
+            </div>
+            <button class="w-100 btn btn-lg btn-primary" type="submit" [disabled]="!registerForm.form.valid">Register</button>
+            <p class="mt-5 mb-3 text-muted">© 2021</p>
+        </form>
+    </main>
+</body>

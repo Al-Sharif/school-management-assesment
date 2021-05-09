@@ -1,0 +1,23 @@
+<head>
+    <title>School Management - Home</title>
+</head>
+
+<div class="d-flex h-100 text-center text-white bg-dark">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="mb-auto">
+            <div>
+                <h3 class="float-md-start mb-0">School Management</h3>
+                <nav class="nav nav-masthead justify-content-center float-md-end">
+                    <a class="nav-link active" aria-current="page" [routerLink]="">Home</a>
+                    <a class="nav-link" *ngIf="!currentUser" [routerLink]="['/login'] ">Login</a>
+                    <a class="nav-link" *ngIf="!currentUser" [routerLink]="['/register']">Register</a>
+                    <a class="nav-link" *ngIf="currentUser" (click)="signOut()">Sign out</a>
+                </nav>
+            </div>
+        </header>
+        <router-outlet></router-outlet>
+        <footer class="mt-auto text-white-50">
+            <p>Developed By <a href="https://www.linkedin.com/in/majdialsharif/" class="text-white">Majdi Mohammad</a>.</p>
+        </footer>
+    </div>
+</div>

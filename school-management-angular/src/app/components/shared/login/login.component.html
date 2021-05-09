@@ -1,0 +1,22 @@
+<title>School Management - Login</title>
+
+<body class="text-center">
+
+    <main class="form-signin">
+        <form (ngSubmit)="login()" #loginForm="ngForm">
+            <img src="/assets/svg/logo.svg" alt="">
+            <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+
+            <div class="form-floating">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" name="email" [(ngModel)]="credintials.email" required>
+                <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="password" [(ngModel)]="credintials.password" required>
+                <label for="floatingPassword">Password</label>
+            </div>
+            <button class="w-100 btn btn-lg btn-primary" [disabled]="!loginForm.form.valid" type="submit">Sign in</button>
+            <p class="mt-5 mb-3 text-muted">© 2021</p>
+        </form>
+    </main>
+</body>

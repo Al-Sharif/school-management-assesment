@@ -1,0 +1,12 @@
+C:\Users\majdi\source\repos\Al-Sharif\school-management-assesment\SchoolManagement.Entities\bin\Debug\net5.0\SchoolManagement.Entities.deps.json
+C:\Users\majdi\source\repos\Al-Sharif\school-management-assesment\SchoolManagement.Entities\bin\Debug\net5.0\SchoolManagement.Entities.dll
+C:\Users\majdi\source\repos\Al-Sharif\school-management-assesment\SchoolManagement.Entities\bin\Debug\net5.0\ref\SchoolManagement.Entities.dll
+C:\Users\majdi\source\repos\Al-Sharif\school-management-assesment\SchoolManagement.Entities\bin\Debug\net5.0\SchoolManagement.Entities.pdb
+C:\Users\majdi\source\repos\Al-Sharif\school-management-assesment\SchoolManagement.Entities\obj\Debug\net5.0\SchoolManagement.Entities.csprojAssemblyReference.cache
+C:\Users\majdi\source\repos\Al-Sharif\school-management-assesment\SchoolManagement.Entities\obj\Debug\net5.0\SchoolManagement.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\majdi\source\repos\Al-Sharif\school-management-assesment\SchoolManagement.Entities\obj\Debug\net5.0\SchoolManagement.Entities.AssemblyInfoInputs.cache
+C:\Users\majdi\source\repos\Al-Sharif\school-management-assesment\SchoolManagement.Entities\obj\Debug\net5.0\SchoolManagement.Entities.AssemblyInfo.cs
+C:\Users\majdi\source\repos\Al-Sharif\school-management-assesment\SchoolManagement.Entities\obj\Debug\net5.0\SchoolManagement.Entities.csproj.CoreCompileInputs.cache
+C:\Users\majdi\source\repos\Al-Sharif\school-management-assesment\SchoolManagement.Entities\obj\Debug\net5.0\SchoolManagement.Entities.dll
+C:\Users\majdi\source\repos\Al-Sharif\school-management-assesment\SchoolManagement.Entities\obj\Debug\net5.0\ref\SchoolManagement.Entities.dll
+C:\Users\majdi\source\repos\Al-Sharif\school-management-assesment\SchoolManagement.Entities\obj\Debug\net5.0\SchoolManagement.Entities.pdb

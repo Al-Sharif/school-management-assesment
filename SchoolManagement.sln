@@ -3,7 +3,32 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolManagement.Entities", "SchoolManagement.Entities\SchoolManagement.Entities.csproj", "{B8F9243B-71EB-418E-8CE9-4DCB9A4B1F33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolManagement.Entities", "SchoolManagement.Entities\SchoolManagement.Entities.csproj", "{B8F9243B-71EB-418E-8CE9-4DCB9A4B1F33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolManagement.Infrastructure", "SchoolManagement.Infrastructure\SchoolManagement.Infrastructure.csproj", "{05A2468D-9A48-49B9-B339-DFFA97F18131}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolManagement.WebAPI", "SchoolManagement.WebAPI\SchoolManagement.WebAPI.csproj", "{4E52A26F-6F11-4804-879E-3A65C0458AB9}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "school-management-angular", "school-management-angular\", "{049CE5F4-EF78-46C5-A720-903D7E88689A}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_23932"
+		Debug.AspNetCompiler.PhysicalPath = "school-management-angular\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_23932\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_23932"
+		Release.AspNetCompiler.PhysicalPath = "school-management-angular\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_23932\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "23932"
+		SlnRelativePath = "school-management-angular\"
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +40,18 @@ Global
 		{B8F9243B-71EB-418E-8CE9-4DCB9A4B1F33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8F9243B-71EB-418E-8CE9-4DCB9A4B1F33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8F9243B-71EB-418E-8CE9-4DCB9A4B1F33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05A2468D-9A48-49B9-B339-DFFA97F18131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05A2468D-9A48-49B9-B339-DFFA97F18131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05A2468D-9A48-49B9-B339-DFFA97F18131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05A2468D-9A48-49B9-B339-DFFA97F18131}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E52A26F-6F11-4804-879E-3A65C0458AB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E52A26F-6F11-4804-879E-3A65C0458AB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E52A26F-6F11-4804-879E-3A65C0458AB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E52A26F-6F11-4804-879E-3A65C0458AB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{049CE5F4-EF78-46C5-A720-903D7E88689A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{049CE5F4-EF78-46C5-A720-903D7E88689A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{049CE5F4-EF78-46C5-A720-903D7E88689A}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{049CE5F4-EF78-46C5-A720-903D7E88689A}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
